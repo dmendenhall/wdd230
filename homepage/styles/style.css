@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Oswald&family=Rowdies:wght@500&display=swap');
+
+.page-wrap {
+    max-width: 300px;
+    margin: auto;
+    background: white;
+  }
+
+h1, li, p {
+    font-family: Rowdies, Oswald, "Josefin Sans";
+}
+
+.header-part, .footer-wrap {
+    border-radius: 15px;
+    background-color: #0561d1;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    padding: 20px 20px 20px;
+  }
+
+.header-part {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+  .profile-image {
+    width: 20%;
+    box-shadow: 0px 0px 30px #ffffff;
+  }
+
+  .full-name h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 10px #000000;
+    margin-right: 20px;
+    margin-top: 60px;
+  }
+
+  .content h1 {
+    font-size: 50px;
+    text-shadow: 0px 0px 10px #000000;
+    margin-left: 20px;
+  }
+
+.lessons {
+    font-size: 25px;
+    max-width: 400px;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    padding-bottom:10px ;
+    margin-bottom: 1px;
+  }
+
+  .lessons li {
+    padding: 5px;
+  }
+
+  .content p {
+    font-size: 30px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+  }
+
+  .footer-wrap {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Rowdies, Oswald, "Josefin Sans";
+  }
+
+  .updated {
+    font-size: 20px;
+    color: #fbef04;
+  }
