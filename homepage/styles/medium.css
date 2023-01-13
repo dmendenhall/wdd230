@@ -1,0 +1,32 @@
+@media screen and (min-width: 32.5em){
+
+    .page-wrap {
+        max-width: 800px;
+      }
+
+    .profile-image {
+        width: 200px;
+    }
+
+    .full-name h1 {
+        font-size: 50px;
+        padding-left: 60px;
+        margin-top: 60px;
+    }
+    
+      h2 {font-size: 35px;
+    }
+
+    .lessons {
+        font-size: 25px;
+      }
+
+      .footer-wrap {
+        font-size: 25px;
+      }
+    
+      .updated {
+        font-size: 20px;
+      }
+
+}
