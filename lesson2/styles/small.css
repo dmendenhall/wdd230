@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&family=Paytone+One&display=swap');
 
 .page-wrap {
-    max-width: auto;
-    margin: auto;
     background: white;
     padding: 10px;
   }
