@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit&family=Urbanist:wght@300&display=swap');
+
+.page-wrap {
+    background: white;
+    padding: 10px;
+  }
+
+body {
+	font-size: 16px;
+	font-family: 'Kaushan Script', 'Outfit', 'Urbanist', sans-serif;
+}
+
+header,
+footer {
+	background-color: #07BEB8;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+    text-align: center;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: auto;
+	margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Kaushan Script';
+	font-size: 90px;
+}
+h2 {
+    font-family: 'Outfit';
+	padding: 10px;
+	color: #536878;
+}
+
+p {
+    font-family: 'Urbanist';
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: .5px;
+	padding: 10px;
+}
+
+p.indent {
+    text-indent: 30px;
+}
+
+nav {
+    background-color: #68D8D6;
+	text-align: center;
+	box-shadow: 0 0 30px #586d6f;
+	display: flex;
+	flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #FFFFFF;
+    font-family: 'Outfit';
+    font-size: 35px;
+    text-align: center;
+	padding: 15px;
+    font-weight:500;
+    text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #C4FFF9;
+	color: #000000;
+}
+
+.column-wrap{
+    display: flex;
+    color: #000000;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+
+  .logo-card{
+    background-color: #C4FFF9;
+    box-shadow: 0 0 30px #586d6f;
+	display: flex;
+	flex-direction: column;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.site-purpose-card h2{
+    font-size: 35px;
+    text-align:justify;
+}
+.site-purpose-card{
+color: #000000;
+font-size: larger;
+text-align: initial;
+box-shadow: 0 0 30px #586d6f;
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 5px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+  
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 150px;
+    margin: 5px;
+    font-family: 'Outfit';
+    font-size: 25px;
+    color: #586d6f;       
+  }
+  .box {
+    background-color: #FFFFFF;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border: 1px solid #000000;
+    margin: 2px;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 0 0 30px #586d6f;
+  }
+
+  .box1 {
+    background-color: #07BEB8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border: 1px solid #000000;
+    margin: 2px;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 0 0 30px #586d6f;
+  }
+
+  .box2 {
+    background-color: #C4FFF9;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid #000000;
+    margin: 2px;
+    text-align: center;
+    box-shadow: 0 0 30px #586d6f;
+  }
+  .box3 {
+    background-color: #68D8D6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border: 1px solid #000000;
+    margin: 2px;
+    text-align: center;
+    box-shadow: 0 0 30px #586d6f;
+  }
+  
+  footer {
+    font-family: 'Outfit';
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 15px;
+	font-weight: 700;
+}
