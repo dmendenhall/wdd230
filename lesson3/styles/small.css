@@ -187,7 +187,12 @@ nav a:hover {
   text-align: center;
   box-shadow: 0 0 30px #586d6f;
   font-size: 18px;
+  color: #000000
 }
+.box1 h2, .box3 h2{
+  color: black;
+}
+
 
 .box2 {
   background-color: #C4FFF9;
@@ -218,6 +223,7 @@ nav a:hover {
   text-align: center;
   box-shadow: 0 0 30px #586d6f;
   font-size: 18px;
+  color: #000000;
 }
 
 .box4 {
@@ -291,8 +297,8 @@ nav a:hover {
   box-shadow: 0 0 30px #586d6f;
 }
 
-.box-ta h2 {
-  color: #FFFFFF;
+.box-ta h2{
+  color: #000000;
 }
 
 .box-ta-1{
@@ -308,7 +314,10 @@ nav a:hover {
   padding-top: 20px;
   text-align: center;
   box-shadow: 0 0 30px #586d6f;
-  color: #FFFFFF;
+}
+
+.box-ta-1 p{
+  color: #000000;
 }
 
 .box-ta-1 p, .box14 p, .box16 p, .box18 p, .box20 p, .box22 p {
